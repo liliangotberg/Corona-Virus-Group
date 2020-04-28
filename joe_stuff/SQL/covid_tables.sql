@@ -1,8 +1,8 @@
-drop table keyword_table;
-drop table country_table;
-drop table city_table;
-drop table keyword_count_table;
-drop table keyword_trigram_table;
+drop table if exists keyword_table;
+drop table if exists country_table;
+drop table if exists city_table;
+drop table if exists keyword_count_table;
+drop table if exists keyword_trigram_table;
 
 
 CREATE TABLE keyword_table(
